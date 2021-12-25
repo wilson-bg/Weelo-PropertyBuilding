@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{29525861-EB55-4849-8F4F-C88A0F729893}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{9F229DD3-259A-48D3-9FAD-C59DB7370523}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weelo.Core", "src\Weelo.Core\Weelo.Core.csproj", "{6477B383-922D-409A-8A98-43DE137F6FD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weelo.Infrastructure", "src\Weelo.Infrastructure\Weelo.Infrastructure.csproj", "{14A598B8-6F21-4876-BCEF-FC3B73B3E292}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weelo.API", "src\Weelo.API\Weelo.API.csproj", "{3B7AF828-2E99-4082-AF7F-B4309FC49BEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weelo.UnitTests", "test\Weelo.UnitTests\Weelo.UnitTests.csproj", "{9A3B7551-344D-43B1-981D-C895A4AC0B52}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6477B383-922D-409A-8A98-43DE137F6FD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6477B383-922D-409A-8A98-43DE137F6FD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6477B383-922D-409A-8A98-43DE137F6FD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6477B383-922D-409A-8A98-43DE137F6FD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14A598B8-6F21-4876-BCEF-FC3B73B3E292}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14A598B8-6F21-4876-BCEF-FC3B73B3E292}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14A598B8-6F21-4876-BCEF-FC3B73B3E292}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14A598B8-6F21-4876-BCEF-FC3B73B3E292}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B7AF828-2E99-4082-AF7F-B4309FC49BEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B7AF828-2E99-4082-AF7F-B4309FC49BEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B7AF828-2E99-4082-AF7F-B4309FC49BEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B7AF828-2E99-4082-AF7F-B4309FC49BEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A3B7551-344D-43B1-981D-C895A4AC0B52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A3B7551-344D-43B1-981D-C895A4AC0B52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A3B7551-344D-43B1-981D-C895A4AC0B52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A3B7551-344D-43B1-981D-C895A4AC0B52}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6477B383-922D-409A-8A98-43DE137F6FD4} = {29525861-EB55-4849-8F4F-C88A0F729893}
+		{14A598B8-6F21-4876-BCEF-FC3B73B3E292} = {29525861-EB55-4849-8F4F-C88A0F729893}
+		{3B7AF828-2E99-4082-AF7F-B4309FC49BEC} = {29525861-EB55-4849-8F4F-C88A0F729893}
+		{9A3B7551-344D-43B1-981D-C895A4AC0B52} = {9F229DD3-259A-48D3-9FAD-C59DB7370523}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4FAA424D-918B-4B7A-A841-8EAC626A5A92}
+	EndGlobalSection
+EndGlobal
