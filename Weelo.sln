@@ -7,11 +7,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{29525861-EB5
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{9F229DD3-259A-48D3-9FAD-C59DB7370523}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weelo.API", "src\Weelo.API\Weelo.API.csproj", "{3B7AF828-2E99-4082-AF7F-B4309FC49BEC}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weelo.Core", "src\Weelo.Core\Weelo.Core.csproj", "{6477B383-922D-409A-8A98-43DE137F6FD4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weelo.Infrastructure", "src\Weelo.Infrastructure\Weelo.Infrastructure.csproj", "{14A598B8-6F21-4876-BCEF-FC3B73B3E292}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weelo.API", "src\Weelo.API\Weelo.API.csproj", "{3B7AF828-2E99-4082-AF7F-B4309FC49BEC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weelo.UnitTests", "test\Weelo.UnitTests\Weelo.UnitTests.csproj", "{9A3B7551-344D-43B1-981D-C895A4AC0B52}"
 EndProject
