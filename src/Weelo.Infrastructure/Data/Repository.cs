@@ -8,7 +8,6 @@ using System.Collections.Generic;
 namespace Weelo.Infrastructure.Data
 {
     public class Repository<TEntity> : IRepository<TEntity> where TEntity : class, IEntity
-    //public class Repository<TEntity> : IRepository<TEntity> where TEntity : class
     {
         /// <summary>
         /// The context

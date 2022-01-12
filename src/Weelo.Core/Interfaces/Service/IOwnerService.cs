@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Weelo.Core.DTOs;
-using Weelo.Core.Entities;
 using Weelo.Core.Wrappers;
 
 namespace Weelo.Core.Interfaces

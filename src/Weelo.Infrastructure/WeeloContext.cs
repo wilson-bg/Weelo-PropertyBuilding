@@ -19,13 +19,6 @@ namespace Weelo.Infrastructure
             base.ChangeTracker.QueryTrackingBehavior = QueryTrackingBehavior.NoTracking;
         }
 
-        //Database IDbContext.Database => throw new System.NotImplementedException();
-
-        //Task<int> IDbContext.SaveChangesAsync()
-        //{
-        //    throw new System.NotImplementedException();
-        //}
-
         /// <summary>
         /// Gets or sets the owner.
         /// </summary>

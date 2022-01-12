@@ -17,7 +17,6 @@ namespace Weelo.Infrastructure.Data
         /// <summary>
         /// Updates the asynchronous.
         /// </summary>
-        /// <param name="entity">The entity.</param>
         /// <returns>the task</returns>
         /// <exception cref="System.ArgumentNullException">the entity</exception>
         public async Task UpdatePrice(Int64 idProperty, decimal price)
